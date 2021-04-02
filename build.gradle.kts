@@ -71,7 +71,7 @@ dependencies {
 	implementation("me.nallar.whocalled:WhoCalled:1.1")
 	api("dev.minco:java-transformer:1.10.1")
 
-	val lombok = "org.projectlombok:lombok:1.18.18"
+	val lombok = "org.projectlombok:lombok:1.18.20"
 	implementation(lombok)
 	annotationProcessor(lombok)
 	testAnnotationProcessor(lombok)
