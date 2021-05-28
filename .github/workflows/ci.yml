@@ -23,7 +23,7 @@ jobs:
                 jdk: [11, 15]
         steps:
             - uses: actions/checkout@v2
-            - uses: actions/cache@v2.1.4
+            - uses: actions/cache@v2.1.6
               with:
                 path: |
                     ~/.gradle/caches
@@ -53,7 +53,7 @@ jobs:
               with:
                   fetch-depth: '0' # https://github.com/shipkit/shipkit-changelog#fetch-depth-on-ci
 
-            - uses: actions/cache@v2.1.4
+            - uses: actions/cache@v2.1.6
               with:
                 path: |
                   ~/.gradle/caches
